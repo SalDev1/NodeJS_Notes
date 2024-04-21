@@ -1,0 +1,21 @@
+<% 
+// EJS tags , will help you with the dynamic content.
+ const name = 'mario'
+%>
+<nav>
+    <div class="site-title">
+
+        <!-- Usage of the EJS Tags , Very similar to string interpolation-->
+        <p><%= name %></p>
+        <a href="'/">
+            <h1>Blog Title</h1>
+        </a>
+        <p>A Net Ninja Site</p>
+    </div>
+
+    <ul>
+        <li><a href="/">Blogs</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blogs/create">New Blog</a></li>
+    </ul>
+</nav>
